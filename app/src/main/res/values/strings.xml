@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Order</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="Item1" translatable="false">G</string>
+    <string name="Item2">Casual frock for girls</string>
+    <string name="Des1">Casual frock for girls.Age between 1 yaer to 10 year.</string>
+    <string name="Size1">"Size   "</string>
+    <string name="Qua1">Quantity</string>
+    <string name="Pm1">Payment Method</string>
+    <string name="Name1">Name</string>
+    <string name="PN1">Phone Number</string>
+    <string name="TA1">Total amount</string>
+    <string name="Price1">Price</string>
+</resources>
