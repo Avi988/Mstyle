@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">location</string>
+    <string name="Title">Office Address</string>\
+    <string name="add_address">Add Address</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="Title1">Home Address</string>
+    <string name="add_address1">Add Address</string>
+    <string name="btn_update1">Update</string>
+    <string name="btn_delete1">Delete</string>
+    <string name="btn_save">Add Address</string>
+
+
+</resources>
