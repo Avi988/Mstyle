@@ -7,27 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Men extends AppCompatActivity {
+public class Bags extends AppCompatActivity {
 
-    Button menselect;
-
+    Button bagselect;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_men);
+        setContentView(R.layout.activity_bags);
 
-        menselect = findViewById(R.id.menselect);
+        bagselect = findViewById(R.id.bagselect);
 
-        menselect.setOnClickListener(new View.OnClickListener() {
+        bagselect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Men.this,back1.class);
+                Intent intent = new Intent(Bags.this,Bagprice.class);
                 startActivity(intent);
 
             }
         });
-
 
     }
 }

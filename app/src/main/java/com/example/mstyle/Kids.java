@@ -7,27 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Men extends AppCompatActivity {
+public class Kids extends AppCompatActivity {
 
-    Button menselect;
-
+    Button kidselect;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_men);
+        setContentView(R.layout.activity_kids);
 
-        menselect = findViewById(R.id.menselect);
+        kidselect = findViewById(R.id.kidselect);
 
-        menselect.setOnClickListener(new View.OnClickListener() {
+        kidselect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Men.this,back1.class);
+                Intent intent = new Intent(Kids.this,Kidprice.class);
                 startActivity(intent);
 
             }
         });
-
-
     }
 }

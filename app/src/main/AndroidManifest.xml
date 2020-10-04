@@ -9,27 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".message">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".car">
-
-        </activity>
-        <activity android:name=".cart"></activity>
-        <activity android:name=".location">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Profile"
+            android:label="Your Profile"></activity>
+        <activity android:name=".Message_1" />
+        <activity android:name=".Bagprice" />
+        <activity android:name=".Bags" />
+        <activity android:name=".Kidprice" />
+        <activity android:name=".Kids" />
+        <activity android:name=".perfumeprice" />
+        <activity android:name=".vouchprice" />
+        <activity android:name=".Vouchers" />
+        <activity android:name=".Perfume" />
+        <activity android:name=".Womprice" />
+        <activity android:name=".Women" />
+        <activity android:name=".message" />
+        <activity android:name=".car" />
+        <activity android:name=".cart" />
+        <activity android:name=".location" />
         <activity android:name=".back1" />
         <activity android:name=".Men" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

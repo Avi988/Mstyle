@@ -7,27 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Men extends AppCompatActivity {
+public class Vouchers extends AppCompatActivity {
 
-    Button menselect;
+    Button voucherselect;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_men);
+        setContentView(R.layout.activity_vouchers);
 
-        menselect = findViewById(R.id.menselect);
+        voucherselect = findViewById(R.id.voucherselect);
 
-        menselect.setOnClickListener(new View.OnClickListener() {
+        voucherselect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Men.this,back1.class);
+                Intent intent = new Intent(Vouchers.this,vouchprice.class);
                 startActivity(intent);
 
             }
         });
-
 
     }
 }
