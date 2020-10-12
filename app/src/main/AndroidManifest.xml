@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Profile"
-            android:label="Your Profile"></activity>
+        <activity android:name=".DeleteData"></activity>
+        <activity
+            android:name=".Profile"
+            android:label="Your Profile" />
         <activity android:name=".Message_1" />
         <activity android:name=".Bagprice" />
         <activity android:name=".Bags" />

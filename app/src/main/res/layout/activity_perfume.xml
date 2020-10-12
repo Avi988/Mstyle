@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Perfume"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.131"
@@ -122,14 +123,14 @@
 
     <ImageView
         android:id="@+id/imageView33"
-        android:layout_width="155dp"
-        android:layout_height="96dp"
+        android:layout_width="134dp"
+        android:layout_height="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974"
+        app:layout_constraintVertical_bias="0.975"
         app:srcCompat="@drawable/bottle3" />
 
     <TextView
